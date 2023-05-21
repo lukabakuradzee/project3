@@ -145,7 +145,6 @@ ul li a:hover {
   text-align: center;
 }
 
-
 .section1_paragraph {
   font-family: "Inter";
   font-style: normal;
@@ -174,6 +173,53 @@ ul li a:hover {
 }
 
 .button_shop_now:hover {
-  background-color:#d5906e;
+  background-color: #d5906e;
   cursor: pointer;
 }
+
+/* SECTION 2 */
+.section2 {
+  width: 50%;
+  margin-inline: auto;
+  padding: 160px 0;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2_cards1 {
+  height: 210px;
+  /* border: 2px solid red; */
+}
+
+.cards1_photo {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.cards1_text {
+  color: #b53b1b;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
+}
+
+/* SECTION 3
+.section3 {
+  margin: 0 auto;
+  padding: 96px;
+  background-color: #402101;
+}
+
+.section3_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+} */
