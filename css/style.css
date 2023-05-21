@@ -207,7 +207,7 @@ ul li a:hover {
   line-height: 22px;
 }
 
-/* SECTION 3
+/* SECTION 3 */
 .section3 {
   margin: 0 auto;
   padding: 96px;
@@ -222,4 +222,67 @@ ul li a:hover {
   line-height: 48px;
   color: #ffffff;
   text-align: center;
-} */
+  margin-bottom: 40px;
+  transition-duration: 1s;
+}
+
+.section3_heading:hover {
+  color: #d5906e;
+  cursor: pointer;
+}
+
+.section3_card_box {
+  width: 70%;
+  /* border: 2px solid green; */
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+}
+
+.cards_div {
+  width: 58%;
+  height: 322px;
+  /* border: 2px solid red; */
+}
+
+.section3_cards_photo {
+  width: 100%;
+  height: 100%;
+}
+
+.cards_div1 {
+  /* border: 2px solid red; */
+  width: 38%;
+  height: 322px;
+}
+
+.cards_div_box2 {
+  width: 100%;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards_div2 {
+  /* border: 2px solid red; */
+  width: 27%;
+  height: 260px;
+}
+
+.cards_div2_photo {
+  width: 100%;
+  height: 100%;
+}
+
+.cards_div3 {
+  width: 38%;
+  height: 260px;
+  /* border: 2px solid red; */
+}
+
+.cards_div3_photo {
+  width: 100%;
+  height: 100%;
+}
