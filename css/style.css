@@ -17,12 +17,13 @@
   background-image: url("../Photos/Rectangle\ 106.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: center;
+  background-size: cover;
+  position: relative;
 }
 
 /* header */
 header {
-  margin: 0  auto;
+  margin: 0 auto;
   padding: 0 12.5%;
   height: 96px;
   background-color: #d5906e85;
@@ -32,6 +33,7 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: inherit;
+  /* width: inherit; */
   width: 100%;
   position: fixed;
   top: 0;
@@ -77,11 +79,16 @@ ul li a:hover {
   font-size: 2.25rem;
   line-height: 44px;
   color: white;
+  /* transition-duration: 1s; */
 }
 
 .logo_span {
   color: #d5906e;
 }
+
+/* .header_logo_text:hover {
+  opacity: 0.7;
+} */
 
 .sign_icon_box {
   display: flex;
@@ -114,8 +121,59 @@ ul li a:hover {
 
 .fa-cart-shopping:hover {
   color: #d5906e;
+  cursor: pointer;
+}
+
+.section1_div_text {
+  width: 40%;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section1_heading {
+  margin-top: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
 
 
+.section1_paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 72px;
+}
 
+.button_shop_now {
+  padding: 19px 117px;
+  background-color: transparent;
+  border: 2px solid #d5906e;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #ffffff;
+  display: block;
+  margin-inline: auto;
+  transition-duration: 1s;
+}
+
+.button_shop_now:hover {
+  background-color:#d5906e;
   cursor: pointer;
 }
