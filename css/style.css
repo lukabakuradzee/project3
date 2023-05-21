@@ -286,3 +286,173 @@ ul li a:hover {
   width: 100%;
   height: 100%;
 }
+
+/* SECTION 4 */
+.section4 {
+  margin: 0 auto;
+  padding: 160px 0%;
+}
+
+.section4_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #402101;
+  text-align: center;
+  margin-bottom: 40px;
+  transition-duration: 1s;
+
+}
+
+.section4_heading:hover {
+  color:#d5906e;
+  cursor: pointer;
+}
+
+.fa-angle-left {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #b53b1b;
+  padding: 10px 13px;
+  height: 44px;
+  margin-top: 100px;
+  transition-duration: 1s;
+}
+
+.fa-angle-left:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.section4_cards_box {
+  width: 90%;
+  /* border: 2px solid red; */
+  display: flex;
+  margin-inline: auto;
+  justify-content: space-between;
+}
+
+.section4_cards1 {
+  width: 20%;
+  height: 260px;
+  /* border: 2px solid blue; */
+  background-image: url(../Photos/Rectangle\ 94.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  transition-duration: 1s;
+ 
+}
+
+.section4_cards1:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+.section4_cards2 {
+  width: 20%;
+  height: 260px;
+  /* border: 2px solid blue; */
+  background-image: url(../Photos/Rectangle\ 95.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  transition-duration: 1s;
+ 
+}
+
+.section4_cards2:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.section4_cards3 {
+  width: 20%;
+  height: 260px;
+  /* border: 2px solid blue; */
+  background-image: url(../Photos/Rectangle\ 96.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  transition-duration: 1s;
+}
+
+.section4_cards3:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.section4_cards4 {
+  width: 20%;
+  height: 260px;
+  /* border: 2px solid blue; */
+  background-image: url(../Photos/Rectangle\ 97.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  transition-duration: 1s;
+ 
+}
+
+.section4_cards4:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.fa-angle-right {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #b53b1b;
+  padding: 10px 13px;
+  height: 44px;
+  margin-top: 100px;
+  transition-duration: 1s;
+}
+
+.fa-angle-right:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+
+
+.price_text {
+  margin: 196px 0 0 16px;
+  padding: 15px 17px;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color:#b53b1b;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 1s;
+  
+}
+
+.price_text:hover {
+  background-color: #b53b1b;
+  color: white;
+  cursor: pointer;
+}
+
+.sectio4_card_photo {
+  width: 100%;
+  height: 100%;
+}
