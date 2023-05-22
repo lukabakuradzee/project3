@@ -487,7 +487,7 @@ ul li a:hover {
 .input_home {
   width: 72%;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   padding: 19px;
   border-radius: 10px;
   outline: none;
@@ -501,7 +501,7 @@ ul li a:hover {
   font-weight: 400;
   font-size: 1rem;
   line-height: 19px;
-  color: white;
+  color: rgba(255, 255, 255, 0.76);
 }
 
 .subscribe_button {
@@ -1036,7 +1036,159 @@ footer {
 
 .fa-greater-than {
   color: #402101;
-
 }
 
-/* FOOTER */
+/* CONTACT PAGE */
+
+/* SECTION 1 */
+.section1_contact {
+  margin: 0 auto;
+  padding: 180px 57% 0px 12.5%;
+  height: 720px;
+  background-image: url("../Photos/Rectangle\ 108.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* FORM CONTAINER */
+
+.form_container {
+  padding: 24px 5%;
+  background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px;
+}
+
+.form_contact_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.form_contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 36px;
+  /* justify-content: space-between; */
+  /* border: 2px solid red; */
+}
+
+.input_contact_page {
+  background-color: transparent;
+  padding: 12px 8px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  width: 45%;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact_email_input {
+  background-color: transparent;
+  padding: 12px 8px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  width: 45%;
+  font-size: 1rem;
+  outline: none;
+  margin-inline: auto;
+  color: white;
+}
+
+textarea {
+  background-color: transparent;
+  padding: 12px 8px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.button_submit_contact {
+  background-color: #d5906e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: white;
+  padding: 19px 42px;
+  border-style: none;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+
+.button_submit_contact:hover {
+  background-color: #b53b1b;
+  cursor: pointer;
+}
+
+/* SECTION 2 CONTACT */
+.section2_contact_page {
+  margin: 160px auto;
+  /* border: 2px solid red; */
+  width: 67%;
+  /* height: 408px; */
+  background-color: rgba(213, 144, 110, 0.3);
+}
+
+.contact_page_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #402101;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact_iframe_box {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_information_div {
+  width: 25%;
+  /* border: 2px solid green; */
+}
+.call_us_div {
+  margin-bottom: 32px;
+}
+
+.callus_text {
+  display: block;
+  margin-bottom: 7px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #b53b1b;
+}
+.contact_number {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #623932;
+}
+
+iframe {
+  width: 70%;
+  height: 320px;
+}
+
+
