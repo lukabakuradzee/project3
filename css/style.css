@@ -571,7 +571,6 @@ ul li a:hover {
   margin-bottom: 24px;
 }
 
-
 .article_paragraph {
   font-family: "Inter";
   font-style: normal;
@@ -611,4 +610,120 @@ ul li a:hover {
 .button_help_center:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #402101;
+  padding: 32px 17% 58px 17%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_div_card {
+  width: 15%;
+  /* border: 2px solid red; */
+}
+
+.footer_h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125;
+  line-height: 22px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.footer_div_card a {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 19px;
+  color: white;
+}
+
+
+.footer_div_card1 {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 29px;
+}
+
+.footer_div_card1 a{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 19px;
+  color: white;
+}
+.social_networks {
+  width: 80%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-youtube {
+  font-size: 1.7rem;
+  color: #FF0000;
+  transition-duration: 1s;
+}
+
+.fa-youtube:hover {
+  transform: scale(1.2);
+}
+
+
+.fa-instagram {
+  font-size: 1.7rem;
+  color: #FD1D1D;
+  transition-duration: 1s;
+}
+
+.fa-instagram:hover {
+  transform: scale(1.2);
+}
+
+.fa-facebook {
+  font-size: 1.7rem;
+  color: #4267B2;
+  transition-duration: 1s;
+}
+
+.fa-facebook:hover {
+  transform: scale(1.2);
+}
+
+.phone:before {
+  content: "\f095";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color:#4267B2;
+  font-size: 1.125rem;
+  margin-right: 16px;
+}
+
+.mail:before {
+  content: "\f0e0";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color:#FCAF45;
+  font-size: 1.125rem;
+  margin-right: 16px;
+}
+
+.location:before {
+  content: "\f3c5";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #E1306C;
+  font-size: 1.125rem;
+  margin-right: 16px;
+
 }
