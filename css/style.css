@@ -646,7 +646,6 @@ footer {
   color: white;
 }
 
-
 .footer_div_card1 {
   /* border: 2px solid red; */
   display: flex;
@@ -654,7 +653,7 @@ footer {
   row-gap: 29px;
 }
 
-.footer_div_card1 a{
+.footer_div_card1 a {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 300;
@@ -671,7 +670,7 @@ footer {
 
 .fa-youtube {
   font-size: 1.7rem;
-  color: #FF0000;
+  color: #ff0000;
   transition-duration: 1s;
 }
 
@@ -679,10 +678,9 @@ footer {
   transform: scale(1.2);
 }
 
-
 .fa-instagram {
   font-size: 1.7rem;
-  color: #FD1D1D;
+  color: #fd1d1d;
   transition-duration: 1s;
 }
 
@@ -692,7 +690,7 @@ footer {
 
 .fa-facebook {
   font-size: 1.7rem;
-  color: #4267B2;
+  color: #4267b2;
   transition-duration: 1s;
 }
 
@@ -704,7 +702,7 @@ footer {
   content: "\f095";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color:#4267B2;
+  color: #4267b2;
   font-size: 1.125rem;
   margin-right: 16px;
 }
@@ -713,7 +711,7 @@ footer {
   content: "\f0e0";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color:#FCAF45;
+  color: #fcaf45;
   font-size: 1.125rem;
   margin-right: 16px;
 }
@@ -722,8 +720,323 @@ footer {
   content: "\f3c5";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: #E1306C;
+  color: #e1306c;
   font-size: 1.125rem;
   margin-right: 16px;
+}
+
+/* ARTWORKS PAGE */
+
+/* SECTION 1 */
+.section1_artwork {
+  margin: 0 auto;
+  padding: 144px 0 144px 0;
+  height: 560px;
+  background-image: url("../Photos/Rectangle\ 107.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1_artwokpage_heading {
+  margin-bottom: 72px;
+}
+
+/* SECTION 2 */
+.section2_artwork {
+  margin: 160px auto 160px auto;
+  width: 75%;
+  /* border: 2px solid red; */
+}
+
+.section2_artwork_search {
+  width: 65%;
+  /* border: 2px solid green; */
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 61px;
+}
+
+.shop_category_div {
+  width: 20%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.shop_category_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #402101;
+}
+
+.fa-chevron-down {
+  color: #402101;
+  font-size: 0.8rem;
+}
+
+.section2_artwork_form {
+  /* border: 2px solid blue; */
+  width: 75%;
+}
+
+.input_artwork_search {
+  width: 60%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #402101;
+  padding: 17px;
+  border: 2px solid #402101;
+  border-radius: 10px;
+}
+
+.input_artwork_search::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(64, 33, 1, 0.52);
+}
+
+.button_artwork_search {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #ffffff;
+  background-color: #402101;
+  padding: 18px 0;
+  width: 35%;
+  border-radius: 10px;
+  border-style: none;
+  transition-duration: 1s;
+}
+
+.button_artwork_search:hover {
+  background-color: #b53b1b;
+  cursor: pointer;
+}
+
+.artwork_allcategory_div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.allcategory_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #402101;
+}
+
+.sort_div {
+  width: 118px;
+  border: 2px solid #b53b1b;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort_div_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 29px;
+  margin-right: 10px;
+}
+
+.fa-arrow-up {
+  color: #402101;
+  font-size: 1.5rem;
+}
+
+.fa-arrow-down {
+  color: #402101;
+  font-size: 1.5rem;
+}
+
+.shopping_items_box {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 80px;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  margin-bottom: 120px;
+}
+
+.figure_card1 {
+  width: 23%;
+  /* border: 2px solid green; */
+}
+
+.figure_photo_box1 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box2 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box3 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(2\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box4 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(3\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box5 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(4\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box6 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(5\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box7 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(6\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_photo_box8 {
+  height: 240px;
+  background-image: url("../Photos/Rectangle\ 102\ \(7\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.figure_card_productname {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #b53b1b;
+  margin-bottom: 28px;
+}
+
+.product_price_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artwork_price_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #402101;
+}
+
+.fa-cart-plus {
+  background-color: rgba(213, 144, 110, 0.3);
+  padding: 4px;
+  color: #402101;
+}
+
+/* pages box */
+
+.div_pages_box {
+  width: 35%;
+  margin-inline: auto;
+  /* border: 2px solid #b53b1b; */
+  display: flex;
+}
+
+.page_numbers {
+  padding: 19px 20px;
+  width: 12.5%;
+  border: 3px solid #b53b1b;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.page_numbers:hover {
+  color: white;
+  background-color: #b53b1b;
+}
+
+.fa-less-than {
+  color: #402101;
+}
+
+.page_numbers a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #402101;
+}
+
+.pagenumberactive {
+  background-color: #b53b1b;
+}
+
+.fa-greater-than {
+  color: #402101;
 
 }
+
+/* FOOTER */
