@@ -1,0 +1,58 @@
+@media (max-width: 1600px) {
+.section2 {
+  width: 65%;
+}
+
+.section3_card_box {
+  width: 80%;
+}
+
+.section4_cards_box {
+  width: 93%;
+}
+
+.section5 {
+  padding: 140px 0;
+}
+
+.section5_heading_box {
+  width: 35%;
+}
+
+footer {
+  padding-inline: 14%;
+}
+
+
+
+/* ARTWORKS PAGE */
+
+.section2_artwork {
+  width: 80%;
+}
+
+.section2_artwork_search {
+  width: 70%;
+}
+
+.shop_category_div {
+  width: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

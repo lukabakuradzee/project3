@@ -86,10 +86,6 @@ ul li a:hover {
   color: #d5906e;
 }
 
-/* .header_logo_text:hover {
-  opacity: 0.7;
-} */
-
 .sign_icon_box {
   display: flex;
   gap: 15px;
@@ -139,6 +135,24 @@ ul li a:hover {
   color: #ffffff;
   margin-bottom: 16px;
   text-align: center;
+  animation-name: headinganime;
+  animation-duration: 8s;
+  animation-timing-function: infinite;
+}
+
+@keyframes headinganime {
+  10% {
+    color: #b53b1b;
+  }
+  25% {
+    color: #d5906e;
+  }
+  50% {
+    color: #fcaf45;
+  }
+  100% {
+    color: #7e450d;
+  }
 }
 
 .section1_paragraph {
@@ -206,7 +220,7 @@ ul li a:hover {
 /* SECTION 3 */
 .section3 {
   margin: 0 auto;
-  padding: 96px;
+  padding: 96px 0;
   background-color: #402101;
 }
 
@@ -286,7 +300,7 @@ ul li a:hover {
 /* SECTION 4 */
 .section4 {
   margin: 0 auto;
-  padding: 160px 0%;
+  padding: 160px 0;
 }
 
 .section4_heading {
@@ -395,6 +409,20 @@ ul li a:hover {
   background-repeat: no-repeat;
   border-radius: 8px;
   transition-duration: 1s;
+}
+
+.button_view_more {
+  background-color: #B53B1B;
+  padding: 15px 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 10px;
+  display: none;
 }
 
 .section4_cards4:hover {
@@ -527,14 +555,14 @@ ul li a:hover {
 
 .section6 {
   margin: 0 auto;
-  padding: 160px 0 160px 0;
+  padding: 160px 0;
 }
 
 .section6_heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 44px;
   color: #402101;
   text-align: center;
@@ -662,6 +690,7 @@ footer {
   color: white;
 }
 .social_networks {
+  /* border: 2px solid red; */
   width: 80%;
   margin-top: 40px;
   display: flex;
@@ -744,7 +773,7 @@ footer {
 
 /* SECTION 2 */
 .section2_artwork {
-  margin: 160px auto 160px auto;
+  margin: 160px auto;
   width: 75%;
   /* border: 2px solid red; */
 }
@@ -790,7 +819,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: #402101;
   padding: 17px;
@@ -802,7 +831,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: rgba(64, 33, 1, 0.52);
 }
@@ -882,6 +911,13 @@ footer {
 .figure_card1 {
   width: 23%;
   /* border: 2px solid green; */
+
+  transition: 1s;
+}
+
+.figure_card1:hover {
+  filter: drop-shadow(0 0.3rem 0.45rem rgba(0, 0, 0, 2));
+  cursor: pointer;
 }
 
 .figure_photo_box1 {
@@ -892,6 +928,7 @@ footer {
   background-size: cover;
   border-radius: 8px;
   margin-bottom: 24px;
+  transition-duration: 1s;
 }
 
 .figure_photo_box2 {
@@ -984,7 +1021,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 29px;
   color: #402101;
 }
@@ -1190,5 +1227,3 @@ iframe {
   width: 70%;
   height: 320px;
 }
-
-

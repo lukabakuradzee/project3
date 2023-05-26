@@ -1,0 +1,186 @@
+@media (max-width: 760px) {
+  .section1 {
+    padding: 70px 0;
+    height: 450px;
+  }
+
+  header {
+    padding: 0 5%;
+    height: 96px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .burgermenu {
+    display: block;
+  }
+
+  .header_logo_text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+  .logo_span {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .section1_div_text {
+    width: 95%;
+    /* border: 2px solid red; */
+  }
+
+  .section1_heading {
+    font-size: 2rem;
+  }
+
+  .button_shop_now {
+    padding: 12px 80px;
+  }
+
+  .section1_paragraph {
+    margin-bottom: 40px;
+  }
+
+  .section2 {
+    padding: 100px;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 40px;
+  }
+
+  .section2_cards1 {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards1_photo {
+    margin-bottom: 20px;
+  }
+
+  /* section3 */
+
+  .section3 {
+    padding: 60px;
+  }
+
+  .section3_heading {
+    font-size: 2rem;
+  }
+
+  .cards_div {
+    width: 100%;
+    height: 240px;
+  }
+
+  .cards_div1 {
+    width: 100%;
+    height: 240px;
+  }
+
+  .cards_div2 {
+    display: none;
+  }
+
+  .cards_div3 {
+    width: 100%;
+    height: 240px;
+  }
+
+  /* SECTION 4 */
+
+  .section4 {
+    padding: 70px 0;
+  }
+
+  .section4_heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .section4_cards_box {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .fa-angle-left {
+    display: none;
+  }
+
+  .section4_cards1 {
+    width: 60%;
+  }
+
+  .section4_cards2 {
+    width: 60%;
+  }
+
+  .section4_cards3 {
+    width: 60%;
+  }
+
+  .section4_cards4 {
+    width: 60%;
+  }
+
+  .fa-angle-right {
+    display: none;
+  }
+
+  .button_view_more {
+    display: block;
+  }
+
+  .section5_heading_box {
+    width: 60%;
+  }
+
+  .article_box {
+    flex-direction: column;
+  }
+
+  .section6_article {
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 30px;
+  }
+
+  .article_title {
+    margin-bottom: 15px;
+  }
+
+  footer {
+    padding-inline: 8%;
+  }
+
+
+  .section2_artwork {
+    margin: 100px auto;
+  }
+
+  .section2_artwork_search {
+    width: 95%;
+  }
+
+  .shop_category_div {
+    width: 30%;
+  }
+
+  .allcategory_text {
+    font-size: 2rem;
+  }
+
+  .sort_div {
+    width: 90px;
+  }
+}
+
