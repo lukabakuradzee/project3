@@ -187,3 +187,23 @@
   }
 }
 
+
+@media (max-width: 415px) {
+   /* SECTION 5 */
+   .section5_heading {
+    font-size: 1.5rem;
+  }
+
+  .section5_heading_box {
+    width: 95%;
+  }
+
+  .input_home {
+    width: 55%;
+  }
+
+  .subscribe_button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
