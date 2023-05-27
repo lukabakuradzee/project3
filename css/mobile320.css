@@ -67,7 +67,7 @@
     width: 93%;
   }
 
-  SECTION 5
+  /* SECTION 5 */
   .section5_heading {
     font-size: 1.5rem;
   }
@@ -83,6 +83,14 @@
   .subscribe_button {
     padding: 10px 20px;
     font-size: 0.9rem;
+  }
+
+  /* SECTION 6 */
+  .section6 {
+    padding: 40px 0;
+  }
+  .section6_heading {
+    font-size: 1.5rem;
   }
 
   /* ARTWORK PAGE */
