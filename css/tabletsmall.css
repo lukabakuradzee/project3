@@ -49,7 +49,7 @@
   }
 
   .section2 {
-    padding: 100px;
+    padding: 100px 0;
     flex-wrap: wrap;
     width: 100%;
     row-gap: 40px;
@@ -161,6 +161,8 @@
   footer {
     padding-inline: 8%;
   }
+
+  /* ARTWORKS PAGE */
 
 
   .section2_artwork {

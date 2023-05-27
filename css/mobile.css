@@ -1,0 +1,288 @@
+@media (max-width: 460px) {
+  /* Home Page */
+  /* section1 */
+
+  .section1 {
+    height: 400px;
+    padding: 40px 0;
+    background-image: url(../Photos/Rectangle\ 109\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button_shop_now {
+    padding: 15px 41px;
+  }
+
+  .section1_paragraph {
+    margin-bottom: 25px;
+  }
+
+  .section2 {
+    width: 95%;
+    padding: 64px 57px;
+  }
+
+  .section2_cards1 {
+    width: 40%;
+  }
+
+  .cards1_text {
+    font-size: 1rem;
+    line-height: 19px;
+  }
+
+  .cards1_photo {
+    width: 100%;
+    height: 96px;
+  }
+
+  /* section 3 */
+  .section3 {
+    padding: 32px 0;
+  }
+
+  .section3_heading {
+    margin-bottom: 24px;
+  }
+
+  .section3_card_box {
+    row-gap: 20px;
+  }
+
+  /* section4 */
+
+  .section4 {
+    padding: 64px 0;
+  }
+
+  .section4_heading {
+    margin-bottom: 28px;
+  }
+
+  .section4_cards1,
+  .section4_cards2,
+  .section4_cards3,
+  .section4_cards4 {
+    width: 100%;
+    height: 240px;
+  }
+
+  .price_text {
+    margin: 181px 0 0 19px;
+  }
+
+  .button_view_more {
+    margin-top: 32px;
+  }
+
+  /* section 5 */
+  .section5 {
+    height: 200px;
+    padding: 45px 0;
+  }
+
+  .section5_heading_box {
+    width: 90%;
+  }
+
+  .section5_heading {
+    margin-bottom: 24px;
+  }
+
+  .header_form {
+    gap: 0;
+    justify-content: center;
+  }
+
+  .input_home {
+    width: 50%;
+  }
+
+  .subscribe_button {
+    padding: 13px 25px;
+  }
+
+  /* section 6 */
+
+  .section6 {
+    padding: 64px 0;
+  }
+
+  .section6_article {
+    margin-bottom: 20px;
+    width: 95%;
+  }
+
+  .section6_heading {
+    margin-bottom: 25px;
+  }
+
+  
+
+  
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 44px;
+  }
+
+  .footer_div_card {
+    width: 40%;
+  }
+
+  .footer_h4 {
+    text-align: center;
+  }
+
+  .footer_div_card a {
+    text-align: center;
+  }
+
+  .footer_logo_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 39px;
+    color: white;
+  }
+
+  .logo_span1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 44px;
+    color: #d5906e;
+  }
+
+  .footer_div_card1 {
+    align-items: center;
+  }
+
+
+  /* ARTWORKS PAGE */
+
+  /* section1  */
+  .section1_artwork {
+    height: 320px;
+    padding: 70px 0;
+    background-image: url(../Photos/Rectangle\ 110.png);
+  }
+
+  .section1_artwokpage_heading {
+    margin-bottom: 22px;
+  }
+
+  .section2_artwork {
+     margin: 65px auto;
+  }
+
+  .section2_artwork_search {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  .section2_artwork_form {
+    width: 100%;
+  }
+
+  .shop_category_div {
+    width: 50%;
+  }
+
+  .button_artwork_search {
+    width:38%;
+  } 
+
+  .artwork_allcategory_div  {
+    margin-bottom: 62px;
+    width: 95%;
+    align-items: center;
+  }
+  .allcategory_text {
+    padding-left: 15px;
+  }
+
+  .shopping_items_box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .figure_card1 {
+    width: 92%;
+  }
+
+  .figure2, 
+  .figure4, 
+  .figure5, 
+  .figure6, 
+  .figure8  {
+    display: none;
+    margin-bottom: 24px
+  }
+    
+  .div_pages_box {
+    width: 60%;
+  }
+
+  .page_numbers {
+    padding: 5px 12px;
+    
+  }
+
+
+  /* CONTACT PAGE */
+
+  /* SECTION 1 */
+
+  .section1_contact {
+    padding: 125px 5% 0 5%;
+    height: 560px;
+    background-image: url(../Photos/Rectangle\ 111.png);
+  }
+
+  .form_container {
+    padding: 15px 5%;
+    height: 410px;
+
+  }
+
+  .form_contact_heading {
+    margin-bottom: 20px;
+  }
+
+  .form_contact {
+    row-gap: 20px;
+  }
+  
+
+  /* SECTION 2 CONTACT */
+
+.contact_iframe_box {
+  flex-direction: column;
+}
+
+.contact_information_div {
+  width: 100%;
+  padding-left: 30px;
+}
+
+iframe {
+ width: 100%;
+
+}
+
+  
+
+ 
+
+
+
+
+
+}
+
+
