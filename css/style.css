@@ -2,6 +2,10 @@
   background-color: black;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 1920px;
   width: 100%;

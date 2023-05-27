@@ -1,0 +1,161 @@
+@media (max-width: 320px) {
+  /* HOME PAGE */
+
+  /* section1 */
+  .header_logo_text {
+    font-size: 1.8rem;
+  }
+
+  .logo_span {
+    font-size: 1.5rem;
+  }
+
+  .section1_heading {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .section1_paragraph {
+    font-size: 0.8rem;
+  }
+  
+  /* section 2 */
+  .section2 {
+    width: 100%;
+    padding: 64px 30px;
+  }
+
+  .section2_cards1 {
+    height: px;
+    width: 40%;
+  }
+
+  
+
+  /* section 3 */
+
+  .section3_heading {
+    font-size: 1.8rem;
+  }
+
+
+
+  .cards_div {
+    height: 180px;
+  }
+
+  .cards_div1 {
+    height: 180px;
+  }
+
+  .cards_div3 {
+    height: 180px;
+  }
+
+  /* SECTION 4 */
+
+  .section4 {
+    padding: 40px 0;
+  }
+
+  .section4_heading {
+    font-size: 1.8rem;
+  }
+
+  .section4_cards_box {
+    width: 93%;
+  }
+
+  /* SECTION 5 */
+  .section5_heading {
+    font-size: 1.5rem;
+  }
+
+  .section5_heading_box {
+    width: 95%;
+  }
+
+  .input_home {
+    width: 55%;
+  }
+
+  .subscribe_button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* ARTWORK PAGE */
+
+  /* SECTION 1 */
+ .section1_artwokpage_heading {
+    margin-bottom: 18px;
+ }
+
+ /* section 2 */
+ .shop_category_div {
+  width: 70%;
+ }
+
+ .section2_artwork_search {
+  width: 100%;
+ }
+
+ .button_artwork_search {
+  padding: 12px 0;
+  font-size: 0.9rem;
+}
+
+.artwork_allcategory_div {
+  margin-bottom: 20px;
+}
+
+
+
+.allcategory_text {
+  font-size: 1.5rem;
+}
+
+.sort_div_text {
+  font-size: 1.2rem;
+}
+
+
+
+.div_pages_box {
+  padding-right: 15px;
+  width: 75%;
+}
+
+
+
+.page_numbers {
+ padding: 8px 12px;
+}
+
+/* CONTACT PAGE */
+
+
+.form_container {
+  padding: 5px 5%;
+  height: 380px;
+}
+
+.form_contact_heading {
+  font-size: 1.5rem;
+}
+
+.button_submit_contact {
+  padding: 12px 35px;
+}
+
+.section2_contact_page {
+  margin: 100px auto;
+}
+
+.contact_page_heading {
+  font-size: 1.6rem;
+}
+
+
+
+}
