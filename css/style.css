@@ -44,7 +44,6 @@ header {
 
 ul {
   display: flex;
-  gap: 60px;
 }
 
 ul li a {
@@ -71,7 +70,7 @@ ul li a:hover {
 .menu {
   font-size: 1.2rem;
   display: flex;
-  gap: 20px;
+  gap: 60px;
 }
 
 .burgmenu, 
