@@ -2,6 +2,7 @@
   /* Home Page */
   /* section1 */
 
+
   .section1 {
     height: 400px;
     padding: 40px 0;
@@ -9,6 +10,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .menu {
+    width: 40%;
   }
 
   .button_shop_now {
