@@ -49,7 +49,8 @@
   }
 
   .section1_div_text {
-    width: 95%;
+    width: 95vw;
+    /* width: 95%; */
     /* border: 2px solid red; */
   }
 
