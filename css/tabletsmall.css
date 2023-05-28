@@ -220,3 +220,46 @@
     font-size: 0.9rem;
   }
 }
+
+
+@media (max-width: 550px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 44px;
+  }
+
+  .footer_div_card {
+    width: 40%;
+  }
+
+  .footer_h4 {
+    text-align: center;
+  }
+
+  .footer_div_card a {
+    text-align: center;
+  }
+
+  .footer_logo_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 39px;
+    color: white;
+  }
+
+  .logo_span1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 44px;
+    color: #d5906e;
+  }
+
+  .footer_div_card1 {
+    align-items: center;
+  }
+}
