@@ -131,14 +131,18 @@
 
 
 .div_pages_box {
-  padding-right: 15px;
-  width: 75%;
+  width: 90%;
 }
 
 
 
 .page_numbers {
- padding: 8px 12px;
+ padding: 5px 12px;
+ width: 5%;
+}
+
+.page_numbers a {
+  font-size: 0.8rem;
 }
 
 /* CONTACT PAGE */

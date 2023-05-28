@@ -415,6 +415,12 @@ ul li a:hover {
   transition-duration: 1s;
 }
 
+.section4_cards4:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .button_view_more {
   background-color: #B53B1B;
   padding: 15px 32px;
@@ -427,13 +433,16 @@ ul li a:hover {
   border-style: none;
   border-radius: 10px;
   display: none;
+  transition-duration: 1s;
 }
 
-.section4_cards4:hover {
-  overflow: hidden;
-  transform: scale(1.1);
-  cursor: pointer;
+.button_view_more:hover {
+  opacity: 0.8;
+
+
 }
+
+
 
 .fa-angle-right {
   font-size: 1.5rem;
@@ -1063,6 +1072,7 @@ footer {
   margin-inline: auto;
   /* border: 2px solid blue; */
   display: flex;
+  
 }
 
 .page_numbers {
