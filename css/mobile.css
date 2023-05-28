@@ -126,8 +126,6 @@
 
   
 
-  
-
   footer {
     flex-direction: column;
     align-items: center;
@@ -136,6 +134,7 @@
 
   .footer_div_card {
     width: 40%;
+
   }
 
   .footer_h4 {
@@ -281,6 +280,34 @@ iframe {
 }
 
 
+}
+
+@media (max-width: 375px) {
+  .header_logo_text {
+    font-size: 1.8rem;
+  }
+
+  .logo_span {
+    font-size: 1.5rem;
+  }
+
+  .section1_heading {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .section1_paragraph {
+    font-size: 0.8rem;
+  }
+
+  /* ARTOWRKS PAGE */
+  .section1_artwokpage_heading {
+    margin-bottom: 22px;
+  }
+
+  .shop_category_div {
+    width: 60%;
+  }
 }
 
 

@@ -67,7 +67,7 @@
   .section2 {
     padding: 100px 0;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     row-gap: 40px;
   }
 
@@ -75,6 +75,7 @@
     height: 180px;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-around; */
   }
 
   .cards1_photo {

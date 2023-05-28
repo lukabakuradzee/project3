@@ -2,23 +2,6 @@
 @media (max-width: 320px) {
   /* HOME PAGE */
 
-  /* section1 */
-  .header_logo_text {
-    font-size: 1.8rem;
-  }
-
-  .logo_span {
-    font-size: 1.5rem;
-  }
-
-  .section1_heading {
-    font-size: 1.5rem;
-    margin-bottom: 0;
-  }
-
-  .section1_paragraph {
-    font-size: 0.8rem;
-  }
   
   /* section 2 */
   .section2 {
@@ -27,7 +10,7 @@
   }
 
   .section2_cards1 {
-    height: px;
+    height: 180px;
     width: 40%;
   }
 
@@ -91,6 +74,10 @@
   }
   .section6_heading {
     font-size: 1.5rem;
+  }
+
+ .footer_div_card {
+      width: 50%;
   }
 
   /* ARTWORK PAGE */
