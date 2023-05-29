@@ -526,7 +526,7 @@ ul li a:hover {
 .header_form {
   display: flex;
   justify-content: space-between;
-  gap: 5px;
+  gap:0;
 }
 
 .input_home {
@@ -534,7 +534,7 @@ ul li a:hover {
   background-color: transparent;
   border: 1px solid white;
   padding: 19px;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   outline: none;
   color: white;
   font-size: 1rem;
@@ -550,12 +550,12 @@ ul li a:hover {
 }
 
 .subscribe_button {
-  padding: 10px 26px;
+  padding: 12px 24px;
   font-size: 1.125rem;
   line-height: 22px;
   border-style: none;
   color: #402101;
-  border-radius: 5px;
+  border-radius: 0 5px 5px ;
   transition: 1s;
   cursor: pointer;
 }
@@ -842,7 +842,7 @@ footer {
   color: #402101;
   padding: 17px;
   border: 2px solid #402101;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   outline: none;
 }
 
@@ -860,9 +860,10 @@ footer {
   line-height: 22px;
   color: #ffffff;
   background-color: #402101;
-  padding: 18px 0;
-  width: 35%;
-  border-radius: 10px;
+  padding: 18px 20px;
+  width: 39%;
+  margin-left: -4px;
+  border-radius: 0 10px 10px 0;
   border-style: none;
   transition-duration: 1s;
 }
