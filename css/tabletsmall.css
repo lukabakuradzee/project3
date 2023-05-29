@@ -10,8 +10,6 @@
   }
 
 
-  
-
   .burgmenu {
     display: block;
   }
@@ -49,8 +47,8 @@
   }
 
   .section1_div_text {
-    width: 95vw;
-    /* width: 95%; */
+    /* width: 95vw; */
+    width: 95%;
     /* border: 2px solid red; */
   }
 
@@ -205,25 +203,7 @@
   }
 }
 
-@media (max-width: 415px) {
-  /* SECTION 5 */
-  .section5_heading {
-    font-size: 1.5rem;
-  }
 
-  .section5_heading_box {
-    width: 95%;
-  }
-
-  .input_home {
-    width: 55%;
-  }
-
-  .subscribe_button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
-}
 
 
 @media (max-width: 550px) {
@@ -266,4 +246,7 @@
   .footer_div_card1 {
     align-items: center;
   }
+
 }
+
+
