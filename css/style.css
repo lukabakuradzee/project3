@@ -1,3 +1,43 @@
+:root {
+  --fontfamily: "Inter";
+  --fontp16: 1rem;
+  --fonth2: 2.5rem;
+  --fontweight400: 400;
+  --fontweight700: 700;
+  --fontstylenormal: "Normal";
+  --color1: #402101; 
+  --color2: #B53B1B;
+  --color3: #D5906E;
+  --color4: #ffffff;
+}
+
+
+p {
+  font-family: var(--fontfamily);
+  font-size: var(--fontp16);
+  font-weight: var(--fontweight400);
+  font-style: var(--fontstylenormal);
+  color: var(--color4);
+}
+
+h2 {
+  font-family: var(--fontfamily);
+  font-size: var(--fonth2);
+  font-weight: var(--fontweight700);
+  font-style: var(--fontstylenormal);
+  color: var(--color4);
+}
+
+button {
+  font-family: var(--fontfamily);
+  font-size: var(--fontp16);
+  font-weight: var(--fontweight400);
+  font-style: var(--fontstylenormal);
+  color: var(--color4);
+}
+
+/* Container */
+
 .container {
   width: 1920px;
   width: 100%;
@@ -104,10 +144,6 @@ ul li a:hover {
 }
 
 .sign_in {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
   color: white;
   transition-duration: 1s;
@@ -139,12 +175,7 @@ ul li a:hover {
 
 .section1_heading {
   margin-top: 80px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
   line-height: 48px;
-  color: #ffffff;
   margin-bottom: 16px;
   text-align: center;
   animation-name: headinganime;
@@ -168,13 +199,9 @@ ul li a:hover {
 }
 
 .section1_paragraph {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
   text-align: center;
-  color: #ffffff;
+  color: white;
   margin-bottom: 72px;
 }
 
@@ -183,12 +210,7 @@ ul li a:hover {
   background-color: transparent;
   border: 2px solid #d5906e;
   border-radius: 10px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
-  color: #ffffff;
   display: block;
   margin-inline: auto;
   transition-duration: 1s;
@@ -222,9 +244,6 @@ ul li a:hover {
 .cards1_text {
   color: #b53b1b;
   text-align: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.125rem;
   line-height: 22px;
 }
@@ -237,12 +256,7 @@ ul li a:hover {
 }
 
 .section3_heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
   line-height: 48px;
-  color: #ffffff;
   text-align: center;
   margin-bottom: 40px;
   transition-duration: 1s;
@@ -316,10 +330,6 @@ ul li a:hover {
 }
 
 .section4_heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
   line-height: 48px;
   color: #402101;
   text-align: center;
@@ -432,12 +442,7 @@ ul li a:hover {
 .button_view_more {
   background-color: #B53B1B;
   padding: 15px 32px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
-  color: #ffffff;
   border-style: none;
   border-radius: 10px;
   display: none;
@@ -446,8 +451,6 @@ ul li a:hover {
 
 .button_view_more:hover {
   opacity: 0.8;
-
-
 }
 
 
@@ -473,9 +476,6 @@ ul li a:hover {
   margin: 196px 0 0 16px;
   padding: 15px 17px;
   border-radius: 20px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
   color: #b53b1b;
   background-color: white;
@@ -512,10 +512,6 @@ ul li a:hover {
 }
 
 .section5_heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
   line-height: 48px;
   color: #ffffff;
   text-align: center;
@@ -555,9 +551,6 @@ ul li a:hover {
 
 .subscribe_button {
   padding: 10px 26px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.125rem;
   line-height: 22px;
   border-style: none;
@@ -580,10 +573,6 @@ ul li a:hover {
 }
 
 .section6_heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.25rem;
   line-height: 44px;
   color: #402101;
   text-align: center;
@@ -621,10 +610,6 @@ ul li a:hover {
 }
 
 .article_paragraph {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
   color: #402101;
 }
@@ -647,10 +632,6 @@ ul li a:hover {
   background-color: #b53b1b;
   border-style: none;
   border-radius: 10px;
-  color: white;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 29px;
   transition-duration: 1s;
@@ -836,9 +817,6 @@ footer {
 }
 
 .shop_category_text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.125rem;
   line-height: 22px;
   color: #402101;
@@ -865,6 +843,7 @@ footer {
   padding: 17px;
   border: 2px solid #402101;
   border-radius: 10px;
+  outline: none;
 }
 
 .input_artwork_search::placeholder {
@@ -877,9 +856,6 @@ footer {
 }
 
 .button_artwork_search {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.125rem;
   line-height: 22px;
   color: #ffffff;
@@ -904,10 +880,7 @@ footer {
 }
 
 .allcategory_text {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
-  font-size: 2.5rem;
   line-height: 48px;
   color: #402101;
 }
@@ -922,9 +895,7 @@ footer {
 }
 
 .sort_div_text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+  color: #402101;
   font-size: 1.5rem;
   line-height: 29px;
   margin-right: 10px;
@@ -952,7 +923,6 @@ footer {
 .figure_card1{
   width: 23%;
   /* border: 2px solid green; */
-
   transition: 1s;
 }
 
@@ -1043,10 +1013,6 @@ footer {
 }
 
 .figure_card_productname {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
   color: #b53b1b;
   margin-bottom: 28px;
@@ -1059,9 +1025,6 @@ footer {
 }
 
 .artwork_price_text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 29px;
   color: #402101;
@@ -1141,10 +1104,6 @@ footer {
 }
 
 .form_contact_heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.5rem;
   line-height: 48px;
   color: white;
   margin-bottom: 40px;
@@ -1194,12 +1153,7 @@ textarea {
 
 .button_submit_contact {
   background-color: #d5906e;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 19px;
-  color: white;
   padding: 19px 42px;
   border-style: none;
   border-radius: 10px;
@@ -1221,10 +1175,6 @@ textarea {
 }
 
 .contact_page_heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
   line-height: 48px;
   color: #402101;
   text-align: center;
@@ -1248,8 +1198,6 @@ textarea {
 .callus_text {
   display: block;
   margin-bottom: 7px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 22px;
