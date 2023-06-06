@@ -39,10 +39,10 @@ button {
 /* Container */
 
 .container {
-  width: 1920px;
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 /* section 1*/
